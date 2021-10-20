@@ -1,0 +1,14 @@
+x : inteiro
+
+inicio
+// Seção de Comandos 
+
+x <- 1
+REPITA
+escreval('dentrao da estrutura de repeticao ')
+                  x<- x + 1
+ATE x < = 1
+      
+      
+      
+fimalgoritmo

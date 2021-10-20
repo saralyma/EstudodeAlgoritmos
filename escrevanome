@@ -1,0 +1,17 @@
+A , R : real
+nome: caractere
+
+inicio
+// Seção de Comandos 
+leia(nome, A)
+            escolha nome
+                    caso "JOAO"
+                    R <- A * 5
+                    caso "MARIA"
+                    R <- A *2
+                    outrocaso
+                    R <- A
+                    fimescolha
+                    A <- A+ 3
+                    escreval(R)
+                    

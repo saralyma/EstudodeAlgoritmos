@@ -1,0 +1,19 @@
+var
+m , n1 , n2, n3 : inteiro
+
+inicio
+// Seção de Comandos
+leia (n1)
+m <- n1
+  leia (n2)
+se n2 > m entao
+fimse
+leia (n3)
+se n3 > m entao
+m <- n3
+fimse
+se (n1 = n2) e ( n2 = n3) entao
+escreval('Numeros iguais')
+senao
+escreval(m)
+fimse

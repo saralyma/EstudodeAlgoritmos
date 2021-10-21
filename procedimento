@@ -1,0 +1,21 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 21/10/2021
+// Seção de Declarações 
+var
+cont: inteiro
+contar : inteiro
+
+    procedimento contar (numero:inteiro )
+       INICIO
+       cont <- numero + 5
+       fimprocedimento
+
+inicio
+cont <-0
+cont <-contar(cont)
+escreval(cont)
+fimalgoritmo
+
+

@@ -1,0 +1,43 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 21/10/2021
+// Seção de Declarações 
+var
+cont , c3, c4 : Inteiro
+     procedimento calcula1 (numero: inteiro )
+     inicio
+     cont <- cont + numero
+     fimprocedimento
+
+     procedimento calcula2
+     inicio
+     cont <- cont * 2
+     fimprocedimento
+     
+
+     funcao calcula3: inteiro
+     inicio
+     c3 <- cont + 1
+     retorne(c3)
+     fimfuncao
+
+
+ funcao calcula4 (x: inteiro ): inteiro
+        inicio
+        c4 <- x * 0
+        retorne(c4)
+        fimfuncao
+        
+
+     
+inicio
+
+cont <- 6
+calcula1 (cont)
+calcula2
+cont <- calcula3
+cont <- calcula4(cont)
+escreval(cont)
+// Seção de Comandos
+fimalgoritmo

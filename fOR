@@ -1,0 +1,16 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 21/10/2021
+// Seção de Declarações 
+var
+i : inteiro
+
+     
+inicio
+PARA i de 100 ate 500 PASSO 100 FACA
+     escreval("teste")
+     FIMPARA
+
+// Seção de Comandos 
+fimalgoritmo
